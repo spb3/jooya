@@ -1,0 +1,83 @@
+.mypage_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 720px;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+}
+
+.mypage_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.banner_box {
+    align-items: center;
+    background-image: linear-gradient(90deg, #feed91, #fedf95, #fec6a7, #eacebf, #d1e0d7, #c3eddd, #c4f1d7, #d3ecd1, #d6e6d1, #e5d6dc, #efc7eb);
+    display: flex;
+    font-size: .8rem;
+    gap: 0.2rem;
+    justify-content: center;
+    padding: 0.25rem 0;
+    width: 100%;
+}
+
+.mypage_body_box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.banner_box span {
+    color: #fa709a;
+}
+
+.mypage_body_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    padding: 50px;
+}
+
+.mypage_login_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ebebeb;
+    width: 40%;
+    padding: 20px;
+    gap: .5rem;
+    border-radius: 5px;
+}
+
+.mypage_detailed_login {
+    font-size: .8rem;
+}
+
+.mypage_login_btn {
+    border: none;
+    background-color: #fa709a;
+    color: #fff;
+    width: 80%;
+    border-radius: 5px;
+    height: 2rem;
+
+    cursor: pointer;
+}
