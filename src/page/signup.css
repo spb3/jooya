@@ -5,4 +5,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+}
+
+.banner {
+    background-image: linear-gradient(90deg, #feed91, #fedf95, #fec6a7, #eacebf, #d1e0d7, #c3eddd, #c4f1d7, #d3ecd1, #d6e6d1, #e5d6dc, #efc7eb);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0.25rem;
+    gap: 0.2rem;
+}
+
+.banner span {
+    color: #fa709a;
+    font-weight: 700;
+}
+
+.signup_wrap {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signup_description_box, .signup_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #b4b4b4;
 }

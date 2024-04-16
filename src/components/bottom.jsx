@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 function Bottom() {
     const navigate = useNavigate();
-
+    
     function onClickMyMenu() {
         navigate('/user/mymenu', {state: {title: "마이메뉴"}} )
     }
